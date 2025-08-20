@@ -84,7 +84,7 @@
 https://docs.qq.com/sheet/DRlJyVGZMdVhNWkdi
 ## app推荐
 
-### 校园VPN
+### 校园VPN: EasyConnect
 
 本软件为学校官方推荐的软件，所提供的链接均为学校链接。
 
@@ -102,7 +102,7 @@ https://docs.qq.com/sheet/DRlJyVGZMdVhNWkdi
 >
 > 旦挞团队是由复旦大学学生组成的公益性组织，成员均为复旦大学的在校学生。我们致力于建设友善、务实、开放、自由的校园学习生活与服务平台，积极为复旦大学广大师生提供校园生活各方面的便利。
 
-以上介绍内容摘自：旦挞 TECH 公众号的[迎新丨2024新生指引](https://mp.weixin.qq.com/s/mLINhovfMHYBBrhlaC0X_Q)。由于本Wiki还未编写完善，暂未取得团队官方的授权，暂时列在本Wiki中，在本Wiki文章达到10篇后会找负责人同学确认。如有不妥当之处，还请联系 pipipi2328@gmail.com 。
+以上介绍内容摘自：旦挞 TECH 公众号的 [迎新丨2024新生指引](https://mp.weixin.qq.com/s/mLINhovfMHYBBrhlaC0X_Q) 。
 
 
 

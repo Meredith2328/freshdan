@@ -32,6 +32,10 @@
 
 公众号：FDUMath
 
+- 码上辅导
+
+通常涉及AI大课的辅导，可通过相关学期内的班级通知获得相关信息。
+
 - 物理辅导、化学辅导等
 
 可参见：https://mp.weixin.qq.com/s/tGPIJLmmFOJiin-lo8ESUQ
@@ -69,7 +73,7 @@
 
 校内的论坛有：
 
-- [旦夕树洞](https://danxi.fduhole.com/)（已改名为蛋挞茶馆，有非常好的时效性，但注意**屏蔽**引起不适等标签）
+- [蛋挞茶馆](https://danxi.fduhole.com/)（原名为“旦夕树洞”，有非常好的时效性，但注意**屏蔽**引起不适等标签）
 - [日月光华BBS](https://bbs.fudan.edu.cn/)（古早的BBS，已经没什么人了）
 - 各种QQ、微信交流群
 
