@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <style>
+        body {
+            font-family: '微软雅黑', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 1200px;
+            padding: 20px;
+        }
+        .semester-header {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+        .semester-container {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .course-box {
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 500;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            min-height: 80px;
+        }
+        .course-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .programming { background-color: #98FB98; } /* 编程与算法 */
+        .software { background-color: #87CEEB; }   /* 软件与系统 */
+        .ai { background-color: #FFD700; }         /* 人工智能 */
+        .practice { 
+            padding: 15px;
+            background-color: #FFA07A; 
+            text-align: center;
+}   /* 实践能力 */
+        .category-bar {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 40px;
+        }
+        .category {
+            padding: 12px 20px;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+        @media (max-width: 768px) {
+            .semester-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            .course-box {
+                min-height: 60px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1 style="text-align:center;">计算机and软件工程课程体系图谱</h1> -->
+
+    <!-- 第一学期 -->
+    <div class="semester-header">一上</div>
+    <div class="semester-container">
+        <div class="course-box programming" onclick="parent.location='/#/cs?id=程序设计'">程序设计</div>
+        <div class="course-box programming" onclick="parent.location='/#/cs?id=高等数学a上'">高等数学A(上)</div>
+        <div class="course-box programming" onclick="parent.location='/#/cs?id=线性代数'">线性代数</div>
+    </div>
+
+    <!-- 第二学期 -->
+    <div class="semester-header">一下</div>
+    <div class="semester-container">
+        <div class="course-box programming" onclick="parent.location='/#/cs?id=面向对象程序设计'">面向对象程序设计</div>
+        <div class="course-box programming" onclick="parent.location='/#/cs?id=高等数学a下'">高等数学A(下)</div>
+        <div class="course-box software" onclick="parent.location='/#/cs?id=计算机系统基础上'">计算机系统基础(上)</div>
+        <div class="course-box programming" onclick="parent.location='/#/cs?id=普通物理b'">普通物理B</div>
+    </div>
+
+    <!-- 第三学期 -->
+    <div class="semester-header">二上</div>
+    <div class="semester-container">
+        <div class="course-box software" onclick="parent.location='/#/cs?id=开源软件开发与治理'">开源软件开发与治理</div>
+        <div class="course-box programming" onclick="parent.location='/#/cs?id=数据结构'">数据结构</div>
+        <div class="course-box programming" onclick="parent.location='/#/cs?id=集合与图论'">集合与图论</div>
+        <div class="course-box programming" onclick="parent.location='/#/cs?id=概率论与数理统计'">概率论与数理统计</div>
+        <div class="course-box software" onclick="parent.location='/#/cs?id=计算机系统基础下'">计算机系统基础(下)</div>
+    </div>
+
+    <!-- 第四学期 -->
+    <div class="semester-header">二下</div>
+    <div class="semester-container">
+        <div class="course-box software" onclick="parent.location='/#/cs?id=软件工程'">软件工程</div>
+        <div class="course-box programming" onclick="parent.location='/#/cs?id=算法设计与分析'">算法设计与分析</div>
+        <div class="course-box ai" onclick="parent.location='/#/cs?id=人工智能导论'">人工智能导论</div>
+        <div class="course-box software" onclick="parent.location='/#/cs?id=数据库系统'">数据库系统</div>
+        <div class="course-box software" onclick="parent.location='/#/cs?id=计算机组成与体系结构'">计算机组成与体系结构</div>
+        <div class="practice">课题组轮转</div>
+    </div>
+
+    <!-- 第五学期 -->
+    <div class="semester-header">三上</div>
+    <div class="semester-container">
+        <div class="course-box software" onclick="parent.location='/#/cs?id=软件设计'">软件设计</div>
+        <div class="course-box software" onclick="parent.location='/#/cs?id=工业软件技术'">工业软件技术</div>
+        <div class="course-box ai" onclick="parent.location='/#/cs?id=模式识别与机器学习'">模式识别与机器学习</div>
+        <div class="course-box software" onclick="parent.location='/#/cs?id=操作系统'">操作系统</div>
+        <div class="course-box software" onclick="parent.location='/#/cs?id=计算机网络'">计算机网络</div>
+        <div class="practice">综合实践</div>
+    </div>
+
+    <!-- 第六学期 -->
+    <div class="semester-header">三下</div>
+    <div class="semester-container">
+        <div class="course-box practice" onclick="parent.location='/#/cs?id=软件测试'">软件测试</div>
+        <div class="course-box programming" onclick="parent.location='/#/cs?id=高性能编程'">高性能编程</div>
+        <div class="course-box ai" onclick="parent.location='/#/cs?id=机器学习系统'">机器学习系统</div>
+        <div class="course-box software" onclick="parent.location='/#/cs?id=编译'">编译</div>
+        <div class="practice">前沿探索</div>
+    </div>
+
+    <!-- 第七学期 -->
+    <div class="semester-header">四-五</div>
+    <div class="semester-container">
+        <div class="course-box practice" onclick="parent.location='/#/cs?id=智能汽车软件与系统'">智能汽车软件与系统</div>
+        <div class="course-box software" onclick="parent.location='/#/cs?id=模型驱动的系统工程'">模型驱动的系统工程</div>
+        <div class="course-box ai" onclick="parent.location='/#/cs?id=神经网络与深度学习'">神经网络与深度学习</div>
+        <div class="course-box software" onclick="parent.location='/#/cs?id=分布式数据库'">分布式数据库</div>
+        <div class="practice">企业实践</div>
+    </div>
+
+    <!-- 毕业设计 -->
+    <div class="semester-header">六</div>
+    <div class="semester-container">
+        <div class="practice" style="grid-column: 3 / span 2;">完成毕业论文</div>
+    </div>
+
+    <!-- 能力分类标签 -->
+    <div class="category-bar">
+        <div class="category programming">编程与算法能力</div>
+        <div class="category software">软件与系统能力</div>
+        <div class="category ai">人工智能能力</div>
+        <div class="category practice">实践能力</div>
+    </div>
+</body>
+</html>
