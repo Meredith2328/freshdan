@@ -4,9 +4,11 @@
 
 **freshdan** 致力于为初入复旦的同学提供必要信息，帮助大家快速度过新手期。
 
-网站链接：https://meredith2328.github.io/fduWiki/ （就是你现在在看的这个网站）
+主网站链接：https://meredith2328.github.io/freshdan/ （更新更快）
 
-点点左下角的导航栏按钮，看看左边目录里有没有什么想看的~
+备用网站链接：https://www.yuque.com/u52463168/freshdan （适宜国内网站访问）
+
+点点左下角的导航栏按钮，看看目录里有没有什么想看的~
 
 ## 怎样帮助完善freshdan
 
